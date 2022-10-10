@@ -3,8 +3,6 @@ package com.maven;
 /**
  * unable to access 'https://github.com/XXXXX/': OpenSSL SSL_read: Connection was reset, errno 10054
  * https://blog.51cto.com/u_14691718/3334457 直接把 .git/cofig中的url里https改成http就OK了
- *
- * GitHub分支创建及合并:https://www.cnblogs.com/fsg6/p/13723592.html
  */
 public class Hello {
     public static void main(String[] args) {
@@ -16,6 +14,7 @@ public class Hello {
         System.out.println("在线更新");
         System.out.println("本地增加新的一行代码commit");
         System.out.println("从devTwo上面增加了一行新的代码");
+        // 这是一行新增加的在线注释
         // 本地master分钟增加的注释
     }
 }
