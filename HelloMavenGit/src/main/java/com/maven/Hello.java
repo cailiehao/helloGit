@@ -13,5 +13,6 @@ public class Hello {
         System.out.println("分支添加445566");
         System.out.println("在线更新");
         System.out.println("本地增加新的一行代码commit");
+        System.out.println("从devTwo上面增加了一行新的代码");
     }
 }
